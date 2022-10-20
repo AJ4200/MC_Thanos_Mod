@@ -1,0 +1,31 @@
+{
+  "group": "thanos_guantlet",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thanos_guantlet:mind"
+    },
+    {
+      "item": "thanos_guantlet:power"
+    },
+    {
+      "item": "thanos_guantlet:reality"
+    },
+    {
+      "item": "thanos_guantlet:guantletweapon"
+    },
+    {
+      "item": "thanos_guantlet:space"
+    },
+    {
+      "item": "thanos_guantlet:time"
+    },
+    {
+      "item": "thanos_guantlet:soul"
+    }
+  ],
+  "result": {
+    "item": "thanos_guantlet:guantletweaponfull",
+    "count": 1
+  }
+}

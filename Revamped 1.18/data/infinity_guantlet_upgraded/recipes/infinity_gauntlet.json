@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_guantlet_upgraded:power_stone"
+    },
+    {
+      "item": "infinity_guantlet_upgraded:mind_stone"
+    },
+    {
+      "item": "infinity_guantlet_upgraded:space_stone"
+    },
+    {
+      "item": "infinity_guantlet_upgraded:reality_stone"
+    },
+    {
+      "item": "infinity_guantlet_upgraded:unfinished_gauntlet"
+    },
+    {
+      "item": "infinity_guantlet_upgraded:soul_stone"
+    },
+    {
+      "item": "infinity_guantlet_upgraded:time_stone"
+    }
+  ],
+  "result": {
+    "item": "infinity_guantlet_upgraded:gauntlet",
+    "count": 1
+  }
+}

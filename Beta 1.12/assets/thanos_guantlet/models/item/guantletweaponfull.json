@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thanos_guantlet:items/thanos_guantlet_full"
+  }
+}

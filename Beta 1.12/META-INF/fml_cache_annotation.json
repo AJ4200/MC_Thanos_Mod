@@ -1,0 +1,208 @@
+{
+  "net/mcreator/thanos_guantlet/MCreatorGuantletWeapon": {
+    "name": "net/mcreator/thanos_guantlet/MCreatorGuantletWeapon",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "thanos_guantlet:guantletweapon"
+        }
+      }
+    ]
+  },
+  "net/mcreator/thanos_guantlet/MCreatorGuantletWeaponFull": {
+    "name": "net/mcreator/thanos_guantlet/MCreatorGuantletWeaponFull",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "thanos_guantlet:guantletweaponfull"
+        }
+      }
+    ]
+  },
+  "net/mcreator/thanos_guantlet/MCreatorMind": {
+    "name": "net/mcreator/thanos_guantlet/MCreatorMind",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "thanos_guantlet:mind"
+        }
+      }
+    ]
+  },
+  "net/mcreator/thanos_guantlet/MCreatorPower": {
+    "name": "net/mcreator/thanos_guantlet/MCreatorPower",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "thanos_guantlet:power"
+        }
+      }
+    ]
+  },
+  "net/mcreator/thanos_guantlet/MCreatorReality": {
+    "name": "net/mcreator/thanos_guantlet/MCreatorReality",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "thanos_guantlet:reality"
+        }
+      }
+    ]
+  },
+  "net/mcreator/thanos_guantlet/MCreatorSoul": {
+    "name": "net/mcreator/thanos_guantlet/MCreatorSoul",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "thanos_guantlet:soul"
+        }
+      }
+    ]
+  },
+  "net/mcreator/thanos_guantlet/MCreatorSpace": {
+    "name": "net/mcreator/thanos_guantlet/MCreatorSpace",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "thanos_guantlet:space"
+        }
+      }
+    ]
+  },
+  "net/mcreator/thanos_guantlet/MCreatorTime": {
+    "name": "net/mcreator/thanos_guantlet/MCreatorTime",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "thanos_guantlet:time"
+        }
+      }
+    ]
+  },
+  "net/mcreator/thanos_guantlet/thanos_guantlet": {
+    "name": "net/mcreator/thanos_guantlet/thanos_guantlet",
+    "interfaces": [
+      "net/minecraftforge/fml/common/IFuelHandler",
+      "net/minecraftforge/fml/common/IWorldGenerator"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "net/mcreator/thanos_guantlet/thanos_guantlet",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "thanos_guantlet"
+          },
+          "version": {
+            "value": "1.0.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "net.mcreator.thanos_guantlet.ClientProxythanos_guantlet"
+          },
+          "serverSide": {
+            "value": "net.mcreator.thanos_guantlet.CommonProxythanos_guantlet"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance",
+        "value": {
+          "value": "thanos_guantlet"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBiomes(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerPotions(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      }
+    ]
+  },
+  "net/mcreator/thanos_guantlet/thanos_guantlet$GuiHandler": {
+    "name": "net/mcreator/thanos_guantlet/thanos_guantlet$GuiHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/IGuiHandler"
+    ]
+  }
+}

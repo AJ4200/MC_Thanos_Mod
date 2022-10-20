@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_guantlet_upgraded:blocks/uru_ore",
+    "up": "infinity_guantlet_upgraded:blocks/uru_ore",
+    "north": "infinity_guantlet_upgraded:blocks/uru_ore",
+    "east": "infinity_guantlet_upgraded:blocks/uru_ore",
+    "south": "infinity_guantlet_upgraded:blocks/uru_ore",
+    "west": "infinity_guantlet_upgraded:blocks/uru_ore",
+    "particle": "infinity_guantlet_upgraded:blocks/uru_ore"
+  }
+}

@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="infinity_guantlet_upgraded"
+version="1.0.0"
+displayName="Infinity Guantlet Upgraded"
+credits="Thanks to everyone for making my mod so popular!"
+displayURL="https://sydney.ovh"
+authors="Sydney, CloudExis LLC"
+
+[[dependencies.infinity_guantlet_upgraded]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
